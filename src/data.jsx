@@ -22,13 +22,13 @@ export const projects = [
         id: 1,
         url: 'https://letsdothis94.github.io/encriptador/',
         title: 'Encriptador de Palabras Alura',
-        image: 'src/images/encriptadorReadme.png',
+        image: './src/images/encriptadorReadme.png',
     },
     {
         id: 2,
         url: 'https://github.com/Letsdothis94/gtApp',
         title: 'GT-App, "Getting people together"',
-        image: 'src/images/gt_app.png',
+        image: '/src/images/gt_app.png',
     },
     {
         id: 3,
