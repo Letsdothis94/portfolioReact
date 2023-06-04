@@ -1,0 +1,48 @@
+.mainSection {
+    text-align: center;
+    background-image: url(../images/backgroundimg.jpg);
+    width: 100%;
+    height: 100vh;
+    color: #1a1a1a;
+}
+
+.introDiv {
+    /* border: 1px solid red; */
+    padding-top: 2.5%;
+    height: 80%;
+}
+
+.myName {
+    padding-top: 10%;
+    text-transform: uppercase;
+}
+
+.home-p {
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+.btn {
+    background-color: rgb(250, 207, 15);
+    border-radius: 6px;
+    box-shadow: rgb(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: border-color 0.25s;
+    width: 60%;
+    margin: auto;
+}
+
+.btn:hover {
+    border-color: #1a1a1a;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #1a1a1a;
+}
+

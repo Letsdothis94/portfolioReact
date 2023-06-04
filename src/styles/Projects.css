@@ -1,0 +1,58 @@
+.projects-Section {
+    border: 1px solid white;
+    width: 100%;
+    text-align: center;
+    color: #1a1a1a;
+    background-color: #fafafa;
+}
+
+.project-container h2 {
+    margin-top: 10%;
+    font-weight: 700;
+    font-size: 2.5em;
+    line-height: 1;
+}
+
+.sub-About {
+    font-size: 1.3rem;
+    line-height: 1.5;
+    margin: 1%;
+}
+
+.project-row {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-gap: 1%;
+    text-align: center;
+    padding: 1%;
+}
+
+.description {
+    border: 1px solid transparent;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.img-pro {
+    border: 1px solid transparent;
+    border-radius: 10%;
+}
+
+.img-pro img {
+    width: 100%;
+    height: auto;
+    transition: all .4s ease-in-out .3s;
+}
+
+.img-pro img:hover,
+.img-pro:focus {
+    animation: pulse 1s;
+    box-shadow: inset 0 0 0 2em transparent;
+}
+
+        /* border: 10px solid rgb(250, 207, 15);
+        transition: all;
+        border-radius: 10%;
+        transition: all 0.2s ease-in 1.2s; */
