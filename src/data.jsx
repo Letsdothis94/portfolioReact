@@ -26,12 +26,18 @@ export const projects = [
     },
     {
         id: 2,
+        url: 'https://letsdothis94.github.io/TheMixologistAPI/',
+        title: 'The~Mixologist, "Cocktail library"',
+        image: 'images/cocktailsAPI.png',
+    },
+    {
+        id: 3,
         url: 'https://github.com/Letsdothis94/gtApp',
         title: 'GT-App, "Getting people together"',
         image: 'images/gt_app.png',
     },
     {
-        id: 3,
+        id: 4,
         url: 'https://github.com/Letsdothis94/boringApp',
         title: 'The Boring App',
         image: 'images/chat.png',

@@ -50,6 +50,7 @@
 .img-pro:focus {
     animation: pulse 1s;
     box-shadow: inset 0 0 0 2em transparent;
+    border-radius: 0.25rem;
 }
 
         /* border: 10px solid rgb(250, 207, 15);
