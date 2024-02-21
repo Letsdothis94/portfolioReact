@@ -7,4 +7,4 @@
 </ul>
 
 <a href="https://letsdothis94.github.io/portfolioReact/" target="_blank">Take me there!</a>
-<h5>status: working on it...</h5>
+<h5>Status: working on it...</h5>
