@@ -1,4 +1,4 @@
-<h1>Portfolio Website</h1>
+# Portfolio Website
 
 <ul>
   <li>React/Vite</li>
@@ -7,4 +7,4 @@
 </ul>
 
 <a href="https://letsdothis94.github.io/portfolioReact/" target="_blank">Take me there!</a>
-<h5>Status: working on it...</h5>
+#### Status: working on it...
