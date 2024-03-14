@@ -1,6 +1,6 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
+  /* line-height: 1.5; */
   font-weight: 400;
 
   color-scheme: light dark;
@@ -25,70 +25,6 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
-}
-
-/* Nav-bar styling  */
-.navBar{
-  display: flex;
-  position: sticky;
-  top: 0px;
-  width: 100%;
-  /* height: 2%; */
-  background-color: whitesmoke;
-  justify-content: space-between;
-  align-items: center;
-  padding: .2rem;
-  border-bottom: 1px solid lightgray;
-}
-
-.profile-pic {
-  width: 100%;
-  height: auto;
-  border-radius: 10%;
-  border: 0.5px solid #1a1a1a;
-}
-
-.profilePicDiv {
-  /* border: 1px solid white; */
-  width: 8%;
-}
-
-.devName {
-  /* border: 1px solid white; */
-  padding: 0;
-}
-
-.devName p {
-  color: #1a1a1a;
-  font-weight: 500;
-  font-size: x-large;
-
-}
-
-.ulDiv {
-  /* border: 1px solid white; */
-  width: 35%;
-}
-
-.ulNav {
-  color: white;
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.ulNav li {
-  list-style: none;
-}
-
-.ulNav li a {
-  color: #1a1a1a;
-  font-weight: 500;
-  text-decoration: none;
-}
-
-.ulNav li a:hover {
-  color: #535bf2;
-  text-decoration: underline;
 }
 
 hr {
