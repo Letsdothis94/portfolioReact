@@ -20,6 +20,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -31,33 +32,4 @@ hr {
   background: linear-gradient(to right, red, yellow);
   height: 5px;
   width: 95%;
-}
-
-@media screen and (max-width: 800px) {
-  .profilePicDiv {
-    display: none;
-  }
-
-  .navBar {
-    justify-content: space-around;
-  }
-
-  .ulNav li {
-    padding-left: 10%;
-  }
-}
-
-@media screen and (max-width: 430px){
-  .devName {
-    display: none;
-  }
-
-  .navBar {
-    justify-content: space-around;
-  }
-
-  .ulNav li {
-    padding-left: 20%;
-  }
-
 }
