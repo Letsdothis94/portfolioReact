@@ -63,3 +63,32 @@
     color: #535bf2;
     text-decoration: underline;
 }
+
+@media screen and (max-width: 350px) {
+    .profilePic-div {
+        display: none;
+    }
+
+    .nav-bar {
+        /* position: fixed; */
+        width: 100vw;
+    }
+
+    .ul-div {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .ul-nav {
+        display: flex;
+        padding-left: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .ul-nav li {
+        gap: 5px;
+    }
+
+
+}
