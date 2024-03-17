@@ -12,7 +12,7 @@ const About = () => {
                 <div className="know-me">
                     <h3>Get to know me!</h3>
                     <div>
-                        <p>I am a <strong>Frontend Web Developer</strong> building the client side of Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the <strong><a href='#projects'>Projects</a></strong> section.</p>
+                        <p>I am a <strong>Frontend Web Developer</strong> building the client side of Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the <a href='#projects'>Projects</a> section.</p>
                         <p>I also like to share content related to the stuff that I have learned over the years in <strong>Web Development</strong> so it can help other people of the Dev Community. Feel free to Connect or Follow me on my <a href="https://www.linkedin.com/in/cristian-contreras-219888251/" target='_blank' rel="noreferrer" alt="Link to Cristian Contreras Linkedin">Linkedin</a> where I post useful content related to Web Development and Programming.</p>
                         <p>I am open to <strong>Job</strong> opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don&apos;t hesitate to <strong>contact</strong> me.</p>
                     </div>

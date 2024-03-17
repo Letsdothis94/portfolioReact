@@ -63,13 +63,11 @@ const Projects = () => {
                     })
                 }
                 <div className="prev" onClick={() => setIndex(index - 1)}>
-                    <img src='images/double-arrow-left.png' />
+                    <img src='images/double-arrow-left.png' alt="double arrow left"/>
                 </div>
                 <div className="next" onClick={() => setIndex(index + 1)}>
-                    <img src='images/double-arrow-right.png' />
+                    <img src='images/double-arrow-right.png' alt="double arrow right" />
                 </div>
-                {/* <button className="prev" onClick={() => setIndex(index - 1)}>⬅️</button> */}
-                {/* <button className="next" onClick={() => setIndex(index + 1)}>➡️</button> */}
             </section> 
             <hr />
         </section>
