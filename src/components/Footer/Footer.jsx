@@ -1,6 +1,5 @@
-import React from "react";
-import "../styles/Footer.css";
-import { links } from "../data";
+import { links } from "../../data";
+import '../Footer/Footer.css';
 
 const Footer = () => {
     return (
@@ -15,10 +14,10 @@ const Footer = () => {
                     <ul className="footer-ul">
                         {
                             links.map((link) => {
-                                const {id, url, icon, text } = link;
+                                const {id, url, icon } = link;
                                 return (
                                     <li key={id}>
-                                        <a href={url} target="blank">{icon}{text}</a>
+                                        <a href={url} target="blank">{icon}</a>
                                     </li>
                                 )
                             })
