@@ -1,0 +1,64 @@
+.footer-body {
+    border: 1px solid black;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.footer-flex {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2%;
+}
+
+.left-section {
+    width: 49%;
+    float: left;
+    margin-left: 1%;
+}
+
+.right-section {
+    width: 49%;
+    float: right;
+    text-align: end;
+    margin-right: 1%;
+}
+
+.footer-ul {
+    list-style: none;
+}
+
+.footer-ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.footer-ul a {
+    color: white;
+}
+
+.footer-body hr {
+    color: white;
+    width: 90%;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.foot {
+    background-color: white;
+}
+
+@media only screen and (max-width: 425px) {
+
+    .left-section {
+        width: 100%;
+        text-align: center;
+    }
+
+    .right-section {
+        width: 100%;
+        text-align: center;
+    }
+}
